@@ -1,0 +1,8 @@
+.root {
+  width:23%;
+  height: calc(100vh - 146px);
+  position:relative;
+  z-index:8;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+}

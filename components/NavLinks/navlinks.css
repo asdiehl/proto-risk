@@ -1,0 +1,29 @@
+.root{
+  position:relative;
+  z-index:10;
+}
+
+.root:before{
+  content: " ";
+	position: absolute;
+	width: 90%;
+	height: 100px;
+  top:0;
+  left:50%;
+  transform: translate(-50%, 0);
+	z-index: -10;
+  border-radius: 200px / 200px;
+	box-shadow: 0 0 20px #555;
+}
+.root ul{
+  padding:20px 16%;
+  background-color:white;
+}
+
+.root li{
+  padding:14px 0;
+  border-bottom:1px solid #E5E5E5;
+}
+.root li:last-child{
+  border-bottom:none;
+}

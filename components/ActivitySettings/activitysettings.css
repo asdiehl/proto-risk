@@ -1,0 +1,11 @@
+.root{
+  background-color:#00A08D;
+  padding:15px 16%;
+}
+.root h2{
+  font-size : 16px;
+  color:white;
+}
+.root ul{
+  padding-top:15px;
+}

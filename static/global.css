@@ -1,0 +1,24 @@
+/*GENERAL RESET*/
+ul{
+  list-style-type: none;
+  padding:0px;
+  margin:0px;
+}
+a, a:hover, a:active, a:visited{
+  text-decoration: none;
+  color:white;
+}
+h1,h2,h3{
+  font-family: 'BNPPSans';
+  font-weight:lighter;
+  margin:0px;
+}
+h3{
+  font-size:23px;
+}
+body{
+  font-family: 'BNPPSans-Light';
+  font-weight:lighter;
+  /* Rectangle 7: */
+  background-color: #FAF9EE;
+}
